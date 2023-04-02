@@ -1,6 +1,7 @@
 ## CLCLSA: Cross-omics Linked embedding with Contrastive Learning and Self Attention for multi-omics data classification with missing views
 
-### Chen Zhao, 2023 Mar
+### Chen Zhao, Anqi Liu, Xiao Zhang, Xuewei Cao, Zhengming Ding, Qiuying Sha, Hui Shen, Hong-Wen Deng*, Weihua Zhou* (whzhou@mtu.edu)
+
 
 ### Abstract
 Integration of heterogeneous and high-dimensional multi-omics data is becoming increasingly important in understanding genetic data. However, one obstacle faced when performing multi-omics data integration is the existence of unpaired multi-omics data due to instrument sensitivity and cost. And studies may fail if certain aspects of the subjects are missing or incomplete. In this paper, we propose a deep learning method for multi-omics integration with incomplete data by Cross-omics Linked unified embedding with Contrastive Learning and Self Attention (CLCLSA). Utilizing complete multi-omics data as supervision, the model uses cross-omics autoencoders to learn the feature representation across different types of biological data. The multi-view contrastive learning, which is used to maximize the mutual information between different types of omics, is employed before latent feature concatenation. Also, the feature-level self-attention and omics-level self-attention are employed to dynamically select the most informative features for multi-omics data integration. Extensive experiments were conducted on four public multi-omics datasets. The experimental results indicated that the proposed CLCLSA outperformed the state-of-the-art approaches for multi-omics data classification using incomplete multi-omics data.
